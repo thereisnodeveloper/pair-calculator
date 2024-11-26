@@ -1,24 +1,26 @@
-# webdev Template (webpack)
+# Calculator - Pair Programming Exercise
 
-#### Linter: ESLint
+## TODO:
+-add(), subtract(), multiply(), divide()
+-"=" calculate
+-clear()
+-Create new hybrid commands
+-error handling
 
-* AirBnB config + a few other tools
+- use "command pattern"
+- Request parameters
 
-#### jsconfig.json
 
-* Type checking & type acquisition
-* Uses ESNext, modules enabled
 
-#### type definitions
+## (EXTRA):
+-simulated "eval"
+-multiple operations + order of operations
 
-- `npx typedi `Automatically installs packages + their type definitions
-- `npx ts-typie` checks for missing type definitions)
+## WORKFLOW:
+- Cadence: 25m switch navigate-drive, 5m break
+- driver codes
+- navigator thinks ahead, ponders edge cases, spots bugs, suggests refactorings, asks good questions, stays zoomed out.
 
-### webpack split config (dev vs. prod)
 
-### Jest
-
-- auto run test on save using `npm run watch`
-- made to work with ES6 Modules using Babel (babel.config.cjs, jest.config.cjs)
-- made to work with webpack (mock stylesheet and files)
-- made to work with browser using `jest-environment-jsdom`
+https://tuple.app/pair-programming-guide/
+https://github.com/charliemc/pair-programming-cheatsheet?tab=readme-ov-file
